@@ -22,7 +22,7 @@ body {
   font-size: 14px;
 }
 
-.search-bar{
+.search-bar {
   margin: auto;
   width: 70%;
   height: 80%;
@@ -50,4 +50,34 @@ body {
   background-color: #f1f1f1;
   height: 50%;
   padding: 0;
+}
+
+.video-section h3 {
+  padding: 0 50px;
+}
+
+.video-section #views {
+  font-weight: lighter;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+}
+
+.subscribe-section{
+  display: flex;
+  margin-left: 3%;
+}
+
+.subscribe-section #right-subscribe{
+  margin-left: 3%;
+}
+
+.subscribe-section button{
+  background-color: red;
+  color: white;
+  padding: 2px 20px;
 }
