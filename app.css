@@ -59,7 +59,7 @@ body {
 .video-section #views {
   font-weight: lighter;
   float: right;
-  padding: 0;
+  padding: 50px 0 0 0;
   margin: 0;
 }
 
@@ -70,6 +70,7 @@ main {
 .subscribe-section{
   display: flex;
   margin-left: 3%;
+  width: 300px;
 }
 
 .subscribe-section #right-subscribe{
@@ -80,4 +81,47 @@ main {
   background-color: red;
   color: white;
   padding: 2px 20px;
+}
+
+.subscribe-section img {
+  height: 70px;
+}
+
+.video-related-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: solid gray 2px;
+}
+
+.video-related-buttons {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  justify-content: space-between;
+}
+
+.video-related-buttons .right {
+  display: flex;
+  align-items: center;
+}
+
+.video-related-buttons .left {
+  display: flex;
+  align-items: center;
+}
+
+.video-related-buttons img{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.video-related-buttons > .right > p {
+  margin-right: 20px;
+}
+
+.video-related-buttons > .left > img {
+  margin-left: 20px;
 }
