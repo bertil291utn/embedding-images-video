@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-  background-color: yellow;
+  background-color: white;
   padding: 1% 5%;
   height: 60px;
   display: flex;
@@ -30,8 +30,20 @@ body {
   align-items: center;
 }
 
-.search-bar button{
-  /* padding: 10px; */
+.right-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.right-icons button {
+  background-color: #1966ff;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 70px;
+  height: 35px;
 }
 
 .section {
