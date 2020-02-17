@@ -3,8 +3,21 @@ body {
 }
 
 .navbar {
-  background-color: white;
-  padding: 1% 5% ;
+  background-color: yellow;
+  padding: 1% 5%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  padding-right: 5%;
+}
+
+input {
+  width: 50%;
+  height: 45%;
+  font-size: 14px;
 }
 
 .section {
