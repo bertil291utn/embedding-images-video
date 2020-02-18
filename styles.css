@@ -71,14 +71,13 @@ iframe {
 .video-section h3 {
   padding: 0 25px;
   font-size: 25px;
-  margin: 15px 0px;
+  margin: 5px 0px 0px 0px;
   letter-spacing: 1px;
 }
 
-.video-section #views {
-  font-weight: lighter;
-  float: right;
-  padding: 50px 0 0 0;
+.hashtag {
+  color: #4586DC;
+  padding: 5px 0px 0px 25px;
   margin: 0;
 }
 
@@ -86,68 +85,84 @@ main {
   display: flex;
 }
 
-.subscribe-section {
+.video-owner-info {
   display: flex;
-  margin-left: 3%;
-  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  height: 60px;
+  margin-top: 15px;
 }
 
-.subscribe-section #right-subscribe {
-  margin-left: 3%;
+.profile {
+  display: flex;
+  align-items: center;
 }
 
-.subscribe-section > #right-subscribe > p {
-  margin: 10px 0px 16px 0px;
+.profile img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
 }
 
-.subscribe-section button {
+.profile p {
+  margin: 3px 0px;
+  font-size: 15px;
+}
+
+.name-of-channel {
+  font-weight: bold;
+}
+
+.number-of-subscribers {
+  color: gray;
+  font-size: 10px;
+}
+
+.subscribe-button {
   background-color: red;
   color: white;
-  padding: 5px 25px;
-  font-size: 12px;
-}
-
-.subscribe-section img {
-  height: 70px;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .video-related-info {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 5px;
   border-bottom: solid gray 2px;
+  color: gray;
+  align-items: center;
+}
+
+.number-of-views {
+  padding-left: 25px;
 }
 
 .video-related-buttons {
-  height: 60px;
+  height: 40px;
   display: flex;
   align-items: center;
-  margin-left: 3%;
   justify-content: space-between;
 }
 
-.video-related-buttons .right {
-  display: flex;
-  align-items: center;
-}
-
-.video-related-buttons .left {
-  display: flex;
-  align-items: center;
-}
-
 .video-related-buttons img {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   margin: 0 5px;
+  padding-left: 10px;
 }
 
-.video-related-buttons > .right > p {
-  margin-right: 20px;
+.video-related-info p {
+  margin: 0;
 }
 
-.video-related-buttons > .left > img {
-  margin-left: 20px;
+.special-border-bottom {
+  border-bottom: solid #4586DC 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0px 9px 0px;
 }
 
 section {
