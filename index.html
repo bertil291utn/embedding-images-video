@@ -5,28 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube clone</title>
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <nav class="navbar">
         <img width="100"
-            src="https://www.lifewire.com/thmb/r09keOCgfqq65b95suQGfkftSQs=/1200x504/filters:no_upscale():max_bytes(150000):strip_icc()/YouTube_logo_2015.svg-592ccdcd3df78cbe7e3790b1.png"
+            src="assets/youtube-logo.png"
             alt="youtube-logo">
         <div class='search-bar'>
             <input type='text' value='Search'>
             <button>
                 <img width="22"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/1200px-Vector_search_icon.svg.png"
+                    src="assets/search-icon.png"
                     alt="">
             </button>
         </div>
         <div class='right-icons'>
-            <img width='30'
-                src='data:image/png;base64,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'
+            <img width='25'
+                src='assets/upload-icon.png'
                 alt='upload-icon'>
-            <img width='30'
-                src='data:image/png;base64,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'
+            <img width='25'
+                src='assets/notification-icon.png'
                 alt='notification-icon'>
             <button>Sign in</button>
         </div>
@@ -40,7 +40,7 @@
                 <h3>2020 NBA Slam Dunk Contest</h3>
                 <div class='video-related-info'>
                     <div class="subscribe-section">
-                        <img src="https://yt3.ggpht.com/a-/AAuE7mD9wJcaXNoXjxE30Nu6Ue3z5FWqRkJULKu_4w=s68-c-k-c0x00ffffff-no-rj-mo"
+                        <img src="assets/avatar.jpg"
                             alt="">
                         <div id="right-subscribe">
                             <p>The Odin Project</p>
@@ -51,13 +51,13 @@
                 </div>
                 <div class='video-related-buttons'>
                     <div class='right'>
-                        <img src='https://lh3.googleusercontent.com/proxy/LE105COZnRUd0QSmPpqfiQ6FoqzE29a8Wb2dCQH2X8oYapzC0ZvpizwIRDA7cnz3bsOvUHagJsQ14scpyTiJzGmm51n6Tyw'
+                        <img src='assets/plus-icon.png'
                             alt='add-icon'>
                         <p>Add to</p>
-                        <img src='https://icons-for-free.com/iconfiles/png/512/send+share+icon-1320196063551611178.png' alt="share-icon">
+                        <img src='assets/send-share-icon.png' alt="share-icon">
                         <p>Share</p>
                         <img
-                            src='https://media-exp1.licdn.com/dms/image/C560BAQFBTTcJ0UygyQ/company-logo_200_200/0?e=2159024400&v=beta&t=2Pr9iBHGSHKXiFb3pPQQUNQMoH8tRgNNSQZXV9R8A1U' alt="more-icon">
+                            src='assets/menu-threedots-icon.png' alt="more-icon">
                         <p>More</p>
                     </div>
                     <div class='left'>
@@ -72,7 +72,7 @@
 
         <aside>
             <div class="thumbnails-videos">
-                <img src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="thumbnail">
+                <img src="assets/thumbnail-video.png" alt="thumbnail">
                 <div class="right-side">
                     <p>Contributing to Open Source Part II: The Real Way</p>
                     <div class="subtitles">
@@ -82,7 +82,7 @@
                 </div>
             </div>
             <div class="thumbnails-videos">
-                <img src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="thumbnail">
+                <img src="assets/thumbnail-video.png" alt="thumbnail">
                 <div class="right-side">
                     <p>Contributing to Open Source Part II: The Real Way</p>
                     <div class="subtitles">
@@ -92,7 +92,7 @@
                 </div>
             </div>
             <div class="thumbnails-videos">
-                <img src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="thumbnail">
+                <img src="assets/thumbnail-video.png" alt="thumbnail">
                 <div class="right-side">
                     <p>Contributing to Open Source Part II: The Real Way</p>
                     <div class="subtitles">
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="thumbnails-videos">
-                <img src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="thumbnail">
+                <img src="assets/thumbnail-video.png" alt="thumbnail">
                 <div class="right-side">
                     <p>Contributing to Open Source Part II: The Real Way</p>
                     <div class="subtitles">
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="thumbnails-videos">
-                <img src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="thumbnail">
+                <img src="assets/thumbnail-video.png" alt="thumbnail">
                 <div class="right-side">
                     <p>Contributing to Open Source Part II: The Real Way</p>
                     <div class="subtitles">
@@ -122,7 +122,7 @@
                 </div>
             </div>
             <div class="thumbnails-videos">
-                <img src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="thumbnail">
+                <img src="assets/thumbnail-video.png" alt="thumbnail">
                 <div class="right-side">
                     <p>Contributing to Open Source Part II: The Real Way</p>
                     <div class="subtitles">

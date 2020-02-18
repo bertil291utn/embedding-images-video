@@ -11,13 +11,9 @@ Additional description about the project and its features.
 - HMTL5
 - CSS
 
-
-
-
 ## Getting Started
 
 Just open/double click index.html
-
 
 ## Authors
 
@@ -27,9 +23,9 @@ Just open/double click index.html
 - Twitter: [@btandayamo](https://twitter.com/batandayamo)
 - Linkedin: [Bertil Tandayamo](http://bit.ly/bertil_linkedin)
 
-👤 **Azamat**
+👤 **Azamat Nuriddinov**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@bettercallazamat](https://github.com/bettercallazamat)
+- Twitter: [@azamat_nuriddin](https://twitter.com/azamat_nuriddin)
+- Linkedin: [Azamat Nuriddinov](https://www.linkedin.com/in/azamat-nuriddinov-57579868)
 
