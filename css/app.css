@@ -1,7 +1,8 @@
+/* MAIN PART */
 body {
   margin: 0%;
 }
-
+/* NAVBAR */
 .navbar {
   background-color: white;
   padding: 1% 5%;
@@ -15,7 +16,7 @@ body {
   display: flex;
   align-items: center;
 }
-
+/* SEACRH INPUT NAVBAR */
 .search-bar input {
   width: 70%;
   height: 50%;
@@ -29,7 +30,7 @@ body {
   display: flex;
   align-items: center;
 }
-
+/* RIGHT ICONS FROM NAVBAR */
 .right-icons {
   display: flex;
   align-items: center;
@@ -45,7 +46,7 @@ body {
   width: 70px;
   height: 35px;
 }
-
+/* SECTION AREA FOR VIDEO */
 .section {
   background-color: #f1f1f1;
   height: 50%;
@@ -55,6 +56,7 @@ body {
 iframe {
   width: 100%;
   height: 450px;
+  border: 0;
 }
 
 .video-section h3 {
@@ -67,11 +69,20 @@ iframe {
   padding: 50px 0 0 0;
   margin: 0;
 }
-
+/* LEFT SIDE AND RIGHT SIDE FLEX*/
 main {
   display: flex;
 }
 
+section {
+  width: 60%;
+}
+
+aside {
+  width: 40%;
+}
+
+/* LEFT SIDE SUBSCRIBE SECTION */
 .subscribe-section {
   display: flex;
   margin-left: 3%;
@@ -91,7 +102,7 @@ main {
 .subscribe-section img {
   height: 70px;
 }
-
+/* AVATAR AND INFO ABOUT CHANNEL */
 .video-related-info {
   display: flex;
   justify-content: space-between;
@@ -107,38 +118,35 @@ main {
   justify-content: space-between;
 }
 
-.video-related-buttons .right {
-  display: flex;
-  align-items: center;
-}
-
-.video-related-buttons .left {
-  display: flex;
-  align-items: center;
-}
-
 .video-related-buttons img {
   width: 20px;
   height: 20px;
   margin: 0 5px;
 }
 
+/* LIKE AND DISLIKE BUTTONS */
+.video-related-buttons .right {
+  display: flex;
+  align-items: center;
+}
+
 .video-related-buttons > .right > p {
   margin-right: 20px;
 }
+
+/* SHARE, ADD AND MORE BUTTONS */
+
+.video-related-buttons .left {
+  display: flex;
+  align-items: center;
+}
+
 
 .video-related-buttons > .left > img {
   margin-left: 20px;
 }
 
-section {
-  width: 60%;
-}
-
-aside {
-  width: 40%;
-}
-
+/* RIGTH SIDE THUMBNAIL VIDEOS */
 .thumbnails-videos {
   display: flex;
   margin: 3%;
@@ -150,7 +158,7 @@ aside {
 
 .thumbnails-videos .right-side>p{
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .thumbnails-videos p{
