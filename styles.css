@@ -4,18 +4,20 @@ body {
 
 .navbar {
   background-color: white;
-  padding: 1% 5%;
+  padding: 1% 2%;
   height: 60px;
   display: flex;
   align-items: center;
 }
 
 .navbar img {
-  padding-right: 5%;
   display: flex;
   align-items: center;
 }
 
+.navbar img#menu-icon {
+  padding-right: 2%;
+}
 .search-bar input {
   width: 70%;
   height: 50%;
@@ -28,6 +30,7 @@ body {
   height: 80%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .search-bar > button > img {
@@ -164,15 +167,14 @@ aside {
   margin: 0 2%;
 }
 
-.thumbnails-videos .right-side>p{
+.thumbnails-videos .right-side > p {
   font-weight: bold;
   font-size: 20px;
 }
 
-.thumbnails-videos p{
+.thumbnails-videos p {
   margin: 0;
 }
-
 
 .thumbnails-videos .right-side .subtitles {
   color: gray;
