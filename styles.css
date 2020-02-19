@@ -4,7 +4,7 @@ body {
 
 .navbar {
   background-color: white;
-  padding: 1% 2%;
+  padding: 0 2%;
   height: 60px;
   display: flex;
   align-items: center;
@@ -19,9 +19,12 @@ body {
   padding-right: 2%;
 }
 .search-bar input {
-  width: 70%;
+  width: 65%;
   height: 50%;
   font-size: 14px;
+  border: #d9d9d9 solid 1px;
+  padding: 3px 10px;
+  color: #949494;
 }
 
 .search-bar {
@@ -34,14 +37,19 @@ body {
 }
 
 .search-bar > button > img {
-  padding: 0 15px;
+  padding: 6px 15px;
+}
+.search-bar > button {
+  background-color: #f8f8f8;
+  border: #d9d9d9 solid 1px;
+  border-left: 0;
 }
 
 .right-icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 15%;
+  width: 16%;
 }
 
 .right-icons button {
@@ -76,7 +84,7 @@ iframe {
 }
 
 .hashtag {
-  color: #4586DC;
+  color: #4586dc;
   padding: 5px 0px 0px 25px;
   margin: 0;
 }
@@ -158,7 +166,7 @@ main {
 }
 
 .special-border-bottom {
-  border-bottom: solid #4586DC 4px;
+  border-bottom: solid #4586dc 4px;
   display: flex;
   justify-content: space-between;
   align-items: center;
