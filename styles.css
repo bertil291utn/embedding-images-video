@@ -65,7 +65,7 @@ main {
 }
 
 .video-section {
-  margin-top: 2%;
+  margin-top: 1.5%;
 }
 
 iframe {
@@ -121,13 +121,14 @@ iframe {
 }
 
 .subscribe-button {
-  background-color: red;
-  color: white;
+  background-color: #c00;
+  color: #fff;
+  border-radius: 2px;
   padding: 9px 27px;
   font-size: 15px;
   font-weight: 500;
-  border-radius: 2px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.007px;
+  border: 0;
 }
 
 .video-related-info {
@@ -177,14 +178,19 @@ aside {
   display: flex;
   margin: 3%;
 }
+.thumbnails-videos#first-video {
+  border-bottom: solid #e5e5e5 1px;
+  padding-bottom: 3%;
+}
 
 .thumbnails-videos .right-side {
   margin: 0 2%;
 }
 
 .thumbnails-videos .right-side > p {
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 14px;
+  color: #0d0d0d;
+  font-weight: 500;
 }
 
 .thumbnails-videos p {
@@ -192,5 +198,6 @@ aside {
 }
 
 .thumbnails-videos .right-side .subtitles {
-  color: gray;
+  color: #606060;
+  font-size: 13px;
 }
