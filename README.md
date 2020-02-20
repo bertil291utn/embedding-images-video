@@ -2,62 +2,34 @@
 
 > This project consists of building an HTML document that matches the appearance of youtube video player page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/screenshot.PNG)
 
-Additional description about the project and its features.
+This project required us to draw on our new understanding of working with media by building YouTube’s video player page.
 
 ## Built With
 
 - HMTL5
 - CSS
 
-## Live Demo
+## Live demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Check it out](https://jovial-kirch-06ab69.netlify.com)💻
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Just open/double click index.html
 
 ## Authors
 
 👤 **Bertil Tandayamo**
 
-- Github: [@githubhandle](https://github.com/bertil291utn)
-- Twitter: [@twitterhandle](https://twitter.com/batandayamo)
-- Linkedin: [linkedin](https://linkedin.com/btandayamo)
+- Github: [@bertil291utn](https://github.com/bertil291utn)
+- Twitter: [@btandayamo](https://twitter.com/batandayamo)
+- Linkedin: [Bertil Tandayamo](http://bit.ly/bertil_linkedin)
 
-👤 **Azamat**
+👤 **Azamat Nuriddinov**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@bettercallazamat](https://github.com/bettercallazamat)
+- Twitter: [@azamat_nuriddin](https://twitter.com/azamat_nuriddin)
+- Linkedin: [Azamat Nuriddinov](https://www.linkedin.com/in/azamat-nuriddinov-57579868)
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!

@@ -1,0 +1,171 @@
+/* MAIN PART */
+body {
+  margin: 0%;
+}
+/* NAVBAR */
+.navbar {
+  background-color: white;
+  padding: 1% 5%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+}
+/* SEACRH INPUT NAVBAR */
+.search-bar input {
+  width: 70%;
+  height: 50%;
+  font-size: 14px;
+}
+
+.search-bar {
+  margin: auto;
+  width: 70%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+/* RIGHT ICONS FROM NAVBAR */
+.right-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.right-icons button {
+  background-color: #1966ff;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 70px;
+  height: 35px;
+}
+/* SECTION AREA FOR VIDEO */
+.section {
+  background-color: #f1f1f1;
+  height: 50%;
+  padding: 0;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+.video-section h3 {
+  padding: 0 50px;
+}
+
+.video-section #views {
+  font-weight: lighter;
+  float: right;
+  padding: 50px 0 0 0;
+  margin: 0;
+}
+/* LEFT SIDE AND RIGHT SIDE FLEX*/
+main {
+  display: flex;
+}
+
+section {
+  width: 60%;
+}
+
+aside {
+  width: 40%;
+}
+
+/* LEFT SIDE SUBSCRIBE SECTION */
+.subscribe-section {
+  display: flex;
+  margin-left: 3%;
+  width: 300px;
+}
+
+.subscribe-section #right-subscribe {
+  margin-left: 3%;
+}
+
+.subscribe-section button {
+  background-color: red;
+  color: white;
+  padding: 2px 20px;
+}
+
+.subscribe-section img {
+  height: 70px;
+}
+/* AVATAR AND INFO ABOUT CHANNEL */
+.video-related-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: solid gray 2px;
+}
+
+.video-related-buttons {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  justify-content: space-between;
+}
+
+.video-related-buttons img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/* LIKE AND DISLIKE BUTTONS */
+.video-related-buttons .right {
+  display: flex;
+  align-items: center;
+}
+
+.video-related-buttons > .right > p {
+  margin-right: 20px;
+}
+
+/* SHARE, ADD AND MORE BUTTONS */
+
+.video-related-buttons .left {
+  display: flex;
+  align-items: center;
+}
+
+
+.video-related-buttons > .left > img {
+  margin-left: 20px;
+}
+
+/* RIGTH SIDE THUMBNAIL VIDEOS */
+.thumbnails-videos {
+  display: flex;
+  margin: 3%;
+}
+
+.thumbnails-videos .right-side {
+  margin: 0 2%;
+}
+
+.thumbnails-videos .right-side>p{
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.thumbnails-videos p{
+  margin: 0;
+}
+
+
+.thumbnails-videos .right-side .subtitles {
+  color: gray;
+}
