@@ -2,9 +2,9 @@
 
 > This project consists of building an HTML document that matches the appearance of youtube video player page.
 
-![screenshot](assets/screenshot.png)
+![screenshot](assets/screenshot.PNG)
 
-Additional description about the project and its features.
+This project required us to draw on our new understanding of working with media by building YouTube’s video player page.
 
 ## Built With
 
