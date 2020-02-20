@@ -11,6 +11,10 @@ This project required us to draw on our new understanding of working with media 
 - HMTL5
 - CSS
 
+## Live demo
+
+[Check it out](https://jovial-kirch-06ab69.netlify.com)💻
+
 ## Getting Started
 
 Just open/double click index.html
